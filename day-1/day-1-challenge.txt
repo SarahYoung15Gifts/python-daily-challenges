@@ -1,0 +1,25 @@
+Your Task:
+Write a Python script that:
+
+Takes this "messy" list:
+raw_guests = ["  alice", "BOB  ", "  chArLie ", "daisy", "  EVE"]
+
+Creates a new list called clean_guests.
+
+For each name in the list:
+
+Strip away the extra whitespace.
+
+Capitalize only the first letter (e.g., "BOB" becomes "Bob").
+
+Print the final clean_guests list.
+
+Hint for Beginners:
+Inside your loop, you'll want to use two very helpful "string methods":
+
+.strip() removes spaces from the beginning and end.
+
+.capitalize() makes the first letter uppercase and the rest lowercase.
+
+Bonus (If you're feeling fancy):
+Can you make the script print a personalized message for each guest, like "You are invited, Alice!"?
