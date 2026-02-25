@@ -15,3 +15,5 @@ clean_list = [name.strip().capitalize() for name in messy_list]
 # The code then iterates over each name in 'clean_list' and prints a personalized invitation message for each name.
 for name in clean_list:
 	print(f"You are invited, {name}!")
+
+#script to run: python messy-list.py

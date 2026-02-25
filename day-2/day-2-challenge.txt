@@ -1,0 +1,17 @@
+The Scenario:
+You are auditing a small warehouse. You have a dictionary of items and their current stock levels. You need to identify which items are low in stock (less than 10 units) and which are out of stock (0 units).
+
+Your Task:
+
+Use this dictionary:
+inventory = {"Apples": 50, "Bananas": 5, "Cherries": 0, "Dates": 20, "Eggplant": 8}
+
+Loop through the dictionary.
+
+Print a specific message based on the stock:
+
+If stock is 0, print: "Cherries is OUT OF STOCK!"
+
+If stock is less than 10, print: "Eggplant is low on stock (8 remaining)."
+
+Otherwise, do nothing.
