@@ -1,0 +1,17 @@
+The Scenario:
+You are building a simple "Square Root & Division" tool. However, users are unpredictable—they might try to divide by zero or enter a word instead of a number.
+
+Your Task:
+
+Define a function called calculate_half(number) that takes one input and returns that number divided by 2.
+
+Ask the user to type a number using the input() function.
+
+Try/Except Block: Wrap your code in a try...except block.
+
+If the user enters a valid number, print: "Half of [number] is [result]."
+
+If the user enters text (like "hello"), catch the ValueError and print: "That's not a number!"
+
+Hint for Beginners:
+Remember that input() always returns a string. You’ll need to convert it to an integer or float using int() or float() before you can do math on it!
