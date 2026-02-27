@@ -1,0 +1,27 @@
+Let's combine everything you've learned: Loops, Strings, Conditionals, and Booleans. We are going to build a basic security check.
+
+The Scenario:
+You are creating a sign-up page. You need to make sure the user's password meets specific "strength" criteria before it's accepted.
+
+Your Task:
+Write a script that asks a user to input a password and checks it against these three rules:
+
+It must be at least 8 characters long.
+
+It must contain at least one number.
+
+It must contain at least one exclamation mark (!).
+
+Requirements:
+
+If the password passes all three, print: "Password secure!"
+
+If it fails any rule, print: "Password too weak!"
+
+Hint for Beginners:
+
+Use len(password) to check the length.
+
+To check for a number or a "!", you can use the any() function with a loop, or a simple for loop with a boolean flag (a variable set to False that switches to True if the condition is met).
+
+Example of checking for a character: if "!" in password:
