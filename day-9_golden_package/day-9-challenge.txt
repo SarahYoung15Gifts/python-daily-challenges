@@ -1,0 +1,14 @@
+The Scenario:
+You have a list of packages in a delivery truck. You are looking for a specific "Golden Package". Once you find it, you should stop looking (because you're done!). However, there are some "Fragile" packages that you should skip over and not even count as "checked."
+
+Your Task:
+
+Use this list: packages = ["Standard", "Standard", "Fragile", "Standard", "Golden", "Standard"]
+
+Create a loop to iterate through the packages.
+
+Use continue: If the package is "Fragile", print "Skipping fragile package..." and move to the next iteration without printing anything else.
+
+Use break: If the package is "Golden", print "Found the Golden Package!" and stop the loop entirely.
+
+For any other package, simply print "Checking standard package..."
